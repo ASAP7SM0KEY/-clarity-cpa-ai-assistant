@@ -1,0 +1,12 @@
+modules = ["python-3.10"]
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["python3", "main.py"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 8080
+externalPort = 80

@@ -1,0 +1,15 @@
+# Clarity CPA - AI Quality Assistant
+# Simplified dependencies for Replit deployment
+
+# No external dependencies required - uses only Python standard library
+# This makes it easy to run on Replit or any Python environment
+
+# Optional dependencies for enhanced functionality:
+# openai>=1.0.0  # For advanced AI features (requires API key)
+# requests>=2.31.0  # For web integration
+# flask>=2.3.0  # For web interface
+
+# For development and testing:
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
